@@ -1,0 +1,62 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Fortrex SCT - Spend Control Tracker",
+    "id": "69bca647-493e-4ee7-86b1-5bde01ad9a26",
+    "version": "1.0.0.24",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Fortrex / Rishabh Software",
+      "websiteUrl": "https://www.rishabhsoft.com",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Spend Control Tracker — manage procurement requests with Dataverse approval routing"
+      },
+      "longDescription": {
+        "default": "Full-lifecycle spend control: draft requests, multi-stage approvals (Triage → Sourcing → FP&A/CFO → PO Issued), attachment management, and live Dataverse integration."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": ["Productivity"]
+    },
+    "webApiPermissionRequests": [
+      {
+        "resource": "https://org1bec48f0.crm8.dynamics.com",
+        "scope": "user_impersonation"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "GroupMember.Read.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.ReadBasic.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Mail.Send"
+      }
+    ],
+    "features": [
+      {
+        "title": "Fortrex SCT Feature",
+        "description": "Activates the Fortrex Spend Control Tracker web part.",
+        "id": "d0f493ee-bfed-43b3-a45c-4e0f67ad4d17",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/ad-dataverse-fortrex.sppkg"
+  }
+}

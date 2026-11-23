@@ -1,0 +1,668 @@
+{
+  "version": "2.1.0",
+  "$schema": "http://json.schemastore.org/sarif-2.1.0-rtm.5",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "ESLint",
+          "informationUri": "https://eslint.org",
+          "version": "9.37.0",
+          "rules": [
+            {
+              "id": "@typescript-eslint/no-explicit-any",
+              "helpUri": "https://typescript-eslint.io/rules/no-explicit-any",
+              "properties": {},
+              "shortDescription": {
+                "text": "Disallow the `any` type"
+              }
+            },
+            {
+              "id": "max-lines",
+              "helpUri": "https://eslint.org/docs/latest/rules/max-lines",
+              "properties": {},
+              "shortDescription": {
+                "text": "Enforce a maximum number of lines per file"
+              }
+            }
+          ]
+        }
+      },
+      "artifacts": [
+        {
+          "location": {
+            "uri": "src/components/common/LoadingSpinner.tsx"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/components/common/EmptyState.tsx"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/components/common/ErrorBanner.tsx"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/models/ISiteMaster.ts"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/models/IRole.ts"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/models/ISupplier.ts"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/models/ISCTRequest.ts"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/models/index.ts"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/services/IDataverseService.ts"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/services/DataverseService.ts"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/components/common/AttachmentManager.tsx"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/components/dashboard/dashboardUtils.ts"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/services/GraphMailService.ts"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/services/approvalHandler.ts"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/components/common/TakeActionModal.tsx"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/components/common/index.ts"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/components/shell/IAppShellProps.ts"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/services/ApprovalRoutingService.ts"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/utils/auditLogger.ts"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/components/history/LogsContent.tsx"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/components/history/RequestLogsPanel.tsx"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/components/dashboard/Dashboard.tsx"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/components/newRequest/NewRequestForm.tsx"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/components/myRequests/MyRequests.tsx"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/components/reviewQueue/ReviewQueue.tsx"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/components/shell/AppShell.tsx"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/components/common/ErrorBoundary.tsx"
+          }
+        },
+        {
+          "location": {
+            "uri": "src/webparts/adFortrexWebpart/AdFortrexWebpartWebPart.ts"
+          }
+        }
+      ],
+      "results": [
+        {
+          "level": "warning",
+          "message": {
+            "text": "Unexpected any. Specify a different type."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/services/GraphMailService.ts",
+                  "index": 12
+                },
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 20,
+                  "endLine": 30,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "ruleId": "@typescript-eslint/no-explicit-any",
+          "ruleIndex": 0,
+          "suppressions": [
+            {
+              "kind": "inSource",
+              "justification": ""
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Unexpected any. Specify a different type."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/services/GraphMailService.ts",
+                  "index": 12
+                },
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 21,
+                  "endLine": 56,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "ruleId": "@typescript-eslint/no-explicit-any",
+          "ruleIndex": 0,
+          "suppressions": [
+            {
+              "kind": "inSource",
+              "justification": ""
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Unexpected any. Specify a different type."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/services/GraphMailService.ts",
+                  "index": 12
+                },
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 20,
+                  "endLine": 63,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "ruleId": "@typescript-eslint/no-explicit-any",
+          "ruleIndex": 0,
+          "suppressions": [
+            {
+              "kind": "inSource",
+              "justification": ""
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Unexpected any. Specify a different type."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/services/approvalHandler.ts",
+                  "index": 13
+                },
+                "region": {
+                  "startLine": 342,
+                  "startColumn": 31,
+                  "endLine": 342,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "ruleId": "@typescript-eslint/no-explicit-any",
+          "ruleIndex": 0,
+          "suppressions": [
+            {
+              "kind": "inSource",
+              "justification": ""
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Unexpected any. Specify a different type."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/services/approvalHandler.ts",
+                  "index": 13
+                },
+                "region": {
+                  "startLine": 500,
+                  "startColumn": 24,
+                  "endLine": 500,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "ruleId": "@typescript-eslint/no-explicit-any",
+          "ruleIndex": 0,
+          "suppressions": [
+            {
+              "kind": "inSource",
+              "justification": ""
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Unexpected any. Specify a different type."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/common/TakeActionModal.tsx",
+                  "index": 14
+                },
+                "region": {
+                  "startLine": 228,
+                  "startColumn": 42,
+                  "endLine": 228,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "ruleId": "@typescript-eslint/no-explicit-any",
+          "ruleIndex": 0,
+          "suppressions": [
+            {
+              "kind": "inSource",
+              "justification": ""
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "File has too many lines (2626). Maximum allowed is 2000."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/dashboard/Dashboard.tsx",
+                  "index": 21
+                },
+                "region": {
+                  "startLine": 2001,
+                  "startColumn": 1,
+                  "endLine": 2627,
+                  "endColumn": 1,
+                  "snippet": {
+                    "text": "          />\n          {!isReturnedRecord && (\n            <DefaultButton\n              text={saving ? 'Submitting…' : 'Submit for Review'}\n              disabled={saving}\n              onClick={() => void this._resubmitReturned()}\n              styles={{ root: { borderRadius: 6, color: '#107C10', borderColor: '#107C10' } }}\n            />\n          )}\n          <DefaultButton text=\"Cancel\" onClick={close} disabled={saving} styles={{ root: { borderRadius: 6 } }} />\n        </div>\n      );\n    }\n\n    return (\n      <Panel isOpen onDismiss={close}\n        type={PanelType.custom} customWidth=\"min(820px, 95vw)\"\n        headerText={headerText}\n        closeButtonAriaLabel=\"Close\"\n        styles={{ content: { paddingBottom: 88 } }}\n        isFooterAtBottom\n        onRenderFooterContent={() => footerContent}\n      >\n        {saveError && (\n          <MessageBar messageBarType={MessageBarType.error} style={{ marginBottom: 16 }}>{saveError}</MessageBar>\n        )}\n\n        {/* Always-visible: extended read-only request details */}\n        <ContextStrip />\n\n        {/* ── Stage 3: Triage ───────────────────────────────────────────── */}\n        {isSubmitted && (\n          <>\n            {preApproval && (\n              <MessageBar\n                messageBarType={preApproval.levels.length > 1 ? MessageBarType.warning : MessageBarType.info}\n                styles={{ root: { borderRadius: 6, marginBottom: 14 } }}\n              >\n                <strong>Pre-Approval Required: {preApproval.levels.join(' + ')}</strong> — {preApproval.description}\n              </MessageBar>\n            )}\n            <SectionTitle label=\"Stage 3 — Triage Assignment\" color=\"#0078D4\" />\n            <TextField label=\"Cost Centre\" value={tv('sct_cost_center')}\n              onChange={setVal('sct_cost_center')} placeholder=\"e.g. CC-1042\" styles={tfS} />\n            <ApproversBlock />\n          </>\n        )}\n\n        {/* ── Stage 4: Sourcing ─────────────────────────────────────────── */}\n        {isSourceStage && (\n          <>\n            <SectionTitle label=\"Stage 4 — Procurement Sourcing\" color=\"#107C10\" />\n            <MessageBar messageBarType={MessageBarType.info} styles={{ root: { borderRadius: 6, marginBottom: 12 } }}>\n              Within direct Procurement authority (≤ ${D_CFO_THRESHOLD.toLocaleString()}, known supplier). Issue PO directly.\n            </MessageBar>\n            <TextField label=\"D365 PO Number\" value={tv('sct_po_number')}\n              onChange={setVal('sct_po_number')} placeholder=\"e.g. PO-2026-00123\" styles={tfS} />\n            <DatePicker\n              label=\"PO Issue Date\"\n              value={poDate}\n              onSelectDate={d => this.setState({ poDate: d ?? undefined })}\n              firstDayOfWeek={DayOfWeek.Monday}\n              formatDate={d => d ? _dateToEdm(d) : ''}\n              placeholder=\"Select PO issue date…\"\n              styles={{ root: { marginBottom: 14 } }}\n              allowTextInput\n            />\n          </>\n        )}\n\n        {/* ── Stage 5: FP&A / CFO ───────────────────────────────────────── */}\n        {isGateStage && (\n          <>\n            <SectionTitle label=\"Stage 5 — FP&A / CFO Review\" color=\"#8764B8\" />\n            <MessageBar\n              messageBarType={MessageBarType.warning}\n              styles={{ root: { borderRadius: 6, marginBottom: 12 } }}\n            >\n              <strong>CFO approval gate triggered</strong> —\n              {!isNaN(amt) && amt > D_CFO_THRESHOLD ? ` value ${formatCurrency(amt)} exceeds $${D_CFO_THRESHOLD.toLocaleString()}.` : ''}\n              {isNew ? ' New supplier.' : ''}\n              {' '}Approve to issue PO or Reject.\n            </MessageBar>\n            {/* Read-only sourcing info */}\n            {(strVal(editRecord, 'sct_po_number') || strVal(editRecord, '_sct_suggested_supplier_value')) && (\n              <div style={{ background: '#F8F8F7', borderRadius: 8, padding: '10px 14px', marginBottom: 14 }}>\n                {strVal(editRecord, '_sct_suggested_supplier_value') && (\n                  <div style={{ marginBottom: 6 }}>\n                    <div style={lbl}>Supplier</div>\n                    <div style={roVal}>{strVal(editRecord, '_sct_suggested_supplier_value')}</div>\n                  </div>\n                )}\n                {strVal(editRecord, 'sct_po_number') && (\n                  <div>\n                    <div style={lbl}>PO Number</div>\n                    <div style={roVal}>{strVal(editRecord, 'sct_po_number')}</div>\n                  </div>\n                )}\n              </div>\n            )}\n            <ApproversBlock />\n          </>\n        )}\n\n        {/* ── Stage 6: Receiving ────────────────────────────────────────── */}\n        {isPOIssued && (\n          <>\n            <SectionTitle label=\"Stage 6 — Receiving\" color=\"#00B294\" />\n            <MessageBar messageBarType={MessageBarType.info} styles={{ root: { borderRadius: 6, marginBottom: 12 } }}>\n              Confirm that goods or services have been received. This closes the request in the Spend Control Tower.\n            </MessageBar>\n            {strVal(editRecord, 'sct_po_number') && (\n              <div style={{ background: '#F8F8F7', borderRadius: 8, padding: '10px 14px', marginBottom: 14 }}>\n                <div style={lbl}>PO Number</div>\n                <div style={roVal}>{strVal(editRecord, 'sct_po_number')}</div>\n              </div>\n            )}\n          </>\n        )}\n\n        {/* ── Default: standard editable form (Draft or unknown status) ─── */}\n        {!isSubmitted && !isInReview && !isPOIssued && (\n          <>\n            <div style={ss}>\n              <SectionTitle label=\"Description & Scope\" />\n              <TextField label=\"Description\" value={tv('sct_description')} multiline rows={4}\n                onChange={setVal('sct_description')} styles={tfS} />\n              <TextField label=\"Function / Department\" value={tv('sct_function')}\n                onChange={setVal('sct_function')} styles={tfS} />\n            </div>\n            <div style={ss}>\n              <SectionTitle label=\"Urgency Details\" />\n              <TextField label=\"Urgency Reason\" value={tv('sct_urgency_reason')} multiline rows={2}\n                onChange={setVal('sct_urgency_reason')} styles={tfS} />\n              <TextField label=\"Emergency Declared By (email)\" value={tv('sct_emergency_declared_by_email')}\n                onChange={setVal('sct_emergency_declared_by_email')} styles={tfS} />\n            </div>\n            <div style={ss}>\n              <SectionTitle label=\"Financials & Dates\" />\n              <TextField label=\"Estimated Total Value (AUD)\" value={tv('sct_estimated_total_value')}\n                onChange={setVal('sct_estimated_total_value')} styles={tfS} />\n              <TextField label=\"Date Needed By (YYYY-MM-DD)\" value={tv('sct_date_needed_by')}\n                onChange={setVal('sct_date_needed_by')} styles={tfS} />\n              <TextField label=\"Term Start Date (YYYY-MM-DD)\" value={tv('sct_term_start_date')}\n                onChange={setVal('sct_term_start_date')} styles={tfS} />\n              <TextField label=\"Term End Date (YYYY-MM-DD)\" value={tv('sct_term_end_date')}\n                onChange={setVal('sct_term_end_date')} styles={tfS} />\n            </div>\n            <div style={ss}>\n              <SectionTitle label=\"Logistics\" />\n              <TextField label=\"Delivery Address\" value={tv('sct_delivery_address')} multiline rows={2}\n                onChange={setVal('sct_delivery_address')} styles={tfS} />\n              <TextField label=\"Receiving Contact Email\" value={tv('sct_receiving_contact_email')}\n                onChange={setVal('sct_receiving_contact_email')} styles={tfS} />\n              <TextField label=\"Equipment Asset Tag\" value={tv('sct_equipment_asset_tag')}\n                onChange={setVal('sct_equipment_asset_tag')} styles={tfS} />\n              <TextField label=\"Customer Name (if recharged)\" value={tv('sct_customer_name')}\n                onChange={setVal('sct_customer_name')} styles={tfS} />\n            </div>\n            <div style={{ marginBottom: 8 }}>\n              <SectionTitle label=\"Flags & Declarations\" />\n              <Toggle label=\"Is New Supplier\" checked={tb('sct_is_new_supplier')} onChange={setToggle('sct_is_new_supplier')} styles={{ root: { marginBottom: 8 } }} />\n              <Toggle label=\"Cost Recharged to Customer\" checked={tb('sct_cost_recharged_to_customer')} onChange={setToggle('sct_cost_recharged_to_customer')} styles={{ root: { marginBottom: 8 } }} />\n              <Toggle label=\"Customer Agreement Attached\" checked={tb('sct_customer_agreement_attached')} onChange={setToggle('sct_customer_agreement_attached')} styles={{ root: { marginBottom: 8 } }} />\n              <Toggle label=\"Tech or Data Involved\" checked={tb('sct_tech_or_data_involved')} onChange={setToggle('sct_tech_or_data_involved')} styles={{ root: { marginBottom: 8 } }} />\n              <Toggle label=\"Supplier on Premises\" checked={tb('sct_supplier_on_premises')} onChange={setToggle('sct_supplier_on_premises')} styles={{ root: { marginBottom: 8 } }} />\n              <Toggle label=\"Possible Capital Purchase\" checked={tb('sct_possible_capital_purchase')} onChange={setToggle('sct_possible_capital_purchase')} styles={{ root: { marginBottom: 8 } }} />\n              <Toggle label=\"Confidential\" checked={tb('sct_is_confidential')} onChange={setToggle('sct_is_confidential')} styles={{ root: { marginBottom: 8 } }} />\n              <Toggle label=\"Retrospective\" checked={tb('sct_is_retrospective')} onChange={setToggle('sct_is_retrospective')} styles={{ root: { marginBottom: 8 } }} />\n              <Toggle label=\"Existing Agreement or PO\" checked={tb('sct_existing_agreement_or_po')} onChange={setToggle('sct_existing_agreement_or_po')} styles={{ root: { marginBottom: 8 } }} />\n              <Toggle label=\"Declaration – No Prior Commitment\" checked={tb('sct_declaration_no_prior_commitment')} onChange={setToggle('sct_declaration_no_prior_commitment')} styles={{ root: { marginBottom: 8 } }} />\n              <Toggle label=\"Declaration – No Conflict of Interest\" checked={tb('sct_declaration_no_conflict_of_interest')} onChange={setToggle('sct_declaration_no_conflict_of_interest')} styles={{ root: { marginBottom: 8 } }} />\n            </div>\n          </>\n        )}\n      </Panel>\n    );\n  }\n\n  private _renderDeleteDialog(): React.ReactElement | null {\n    const { deleteRecord, saving } = this.state;\n    if (!deleteRecord) return null;\n    const titleField = this.state.allFields.find(f => f.indexOf('name') !== -1 || f.indexOf('title') !== -1);\n    const label = titleField ? strVal(deleteRecord, titleField) : 'this record';\n    return (\n      <Dialog isOpen hidden={false}\n        onDismiss={() => this.setState({ deleteRecord: null })}\n        dialogContentProps={{ type: DialogType.normal, title: 'Delete Record', subText: `Permanently delete \"${label}\"? This cannot be undone.` }}\n        modalProps={{ isBlocking: true }}\n      >\n        <DialogFooter>\n          <PrimaryButton text={saving ? 'Deleting…' : 'Delete'} onClick={() => void this._confirmDelete()} disabled={saving} styles={{ root: { background: '#A4262C', border: 'none', borderRadius: 6 } }} />\n          <DefaultButton text=\"Cancel\" onClick={() => this.setState({ deleteRecord: null })} disabled={saving} styles={{ root: { borderRadius: 6 } }} />\n        </DialogFooter>\n      </Dialog>\n    );\n  }\n\n  private _renderFieldInspector(): React.ReactElement | null {\n    const { showFieldInspector, records } = this.state;\n    if (!showFieldInspector || !records.length) return null;\n    const allKeys = Object.keys(records[0]).filter(k => !k.startsWith('@')).sort();\n    return (\n      <Panel isOpen onDismiss={() => this.setState({ showFieldInspector: false })}\n        type={PanelType.custom} customWidth=\"min(640px, 95vw)\"\n        headerText={`Field Inspector — ${allKeys.length} columns from sct_request`}\n        closeButtonAriaLabel=\"Close\"\n        styles={{ content: { paddingBottom: 40 } }}\n      >\n        <Text variant=\"small\" style={{ color: '#605E5C', marginBottom: 12, display: 'block', lineHeight: '1.6' }}>\n          Real logical names returned by your Dataverse <code style={{ background: '#F3F2F1', padding: '1px 5px', borderRadius: 4 }}>sct_request</code> entity.\n          Use these to update <code style={{ background: '#F3F2F1', padding: '1px 5px', borderRadius: 4 }}>src/models/ISCTRequest.ts</code>.\n        </Text>\n        <div style={{ fontFamily: 'Consolas, monospace', fontSize: 12, background: '#F8F8F8', border: '1px solid #EDEBE9', borderRadius: 8, padding: 16, maxHeight: 520, overflowY: 'auto' }}>\n          {allKeys.map(k => {\n            const sample = records[0][k];\n            const type = sample === null ? 'null' : typeof sample === 'number' ? 'number' : typeof sample === 'boolean' ? 'boolean' : 'string';\n            const sampleStr = sample !== null && sample !== undefined ? String(sample).substring(0, 50) : '';\n            return (\n              <div key={k} style={{ marginBottom: 5, display: 'flex', gap: 8, alignItems: 'baseline' }}>\n                <span style={{ color: '#0078D4', minWidth: 260 }}>{k}</span>\n                <span style={{ color: '#107C10', minWidth: 60 }}>{type}</span>\n                <span style={{ color: '#A19F9D', fontSize: 11 }}>{sampleStr}</span>\n              </div>\n            );\n          })}\n        </div>\n      </Panel>\n    );\n  }\n\n  private _renderPagination(totalFiltered: number): React.ReactElement {\n    const { currentPage, pageSize } = this.state;\n    const totalPages = Math.max(1, Math.ceil(totalFiltered / pageSize));\n    const start = Math.min((currentPage - 1) * pageSize + 1, totalFiltered);\n    const end = Math.min(currentPage * pageSize, totalFiltered);\n\n    // Show at most 5 page numbers\n    const pages: number[] = [];\n    if (totalPages <= 5) {\n      for (let i = 1; i <= totalPages; i++) pages.push(i);\n    } else if (currentPage <= 3) {\n      pages.push(1, 2, 3, 4, 5);\n    } else if (currentPage >= totalPages - 2) {\n      for (let i = totalPages - 4; i <= totalPages; i++) pages.push(i);\n    } else {\n      for (let i = currentPage - 2; i <= currentPage + 2; i++) pages.push(i);\n    }\n\n    return (\n      <div className={styles.pagination}>\n        <Text variant=\"small\" className={styles.paginationInfo}>\n          Showing {totalFiltered === 0 ? 0 : start}–{end} of {totalFiltered} records\n        </Text>\n        <div style={{ display: 'flex', alignItems: 'center', gap: 4 }}>\n          <div className={styles.paginationControls}>\n            <button className={styles.pageBtn} disabled={currentPage === 1}\n              onClick={() => this.setState({ currentPage: 1 })} aria-label=\"First page\">«</button>\n            <button className={styles.pageBtn} disabled={currentPage === 1}\n              onClick={() => this.setState(s => ({ currentPage: s.currentPage - 1 }))} aria-label=\"Previous page\">‹</button>\n            {pages.map(p => (\n              <button key={p}\n                className={`${styles.pageBtn} ${p === currentPage ? styles.pageBtnActive : ''}`}\n                onClick={() => this.setState({ currentPage: p })} aria-label={`Page ${p}`} aria-current={p === currentPage}>{p}</button>\n            ))}\n            <button className={styles.pageBtn} disabled={currentPage === totalPages}\n              onClick={() => this.setState(s => ({ currentPage: s.currentPage + 1 }))} aria-label=\"Next page\">›</button>\n            <button className={styles.pageBtn} disabled={currentPage === totalPages}\n              onClick={() => this.setState({ currentPage: totalPages })} aria-label=\"Last page\">»</button>\n          </div>\n          <select className={styles.pageSizeSelect} value={pageSize}\n            onChange={e => this.setState({ pageSize: Number(e.target.value), currentPage: 1 })}\n            aria-label=\"Rows per page\">\n            {PAGE_SIZE_OPTIONS.map(n => <option key={n} value={n}>{n} / page</option>)}\n          </select>\n        </div>\n      </div>\n    );\n  }\n\n  // ── History panel ─────────────────────────────────────────────────────────\n\n  private _renderHistoryPanel(): React.ReactElement | null {\n    const { historyRecord } = this.state;\n    if (!historyRecord || !this._service) return null;\n    const id = this._getRecordId(historyRecord);\n    if (!id) return null;\n    const ref = strVal(historyRecord, 'sct_sct_reference');\n    return (\n      <RequestLogsPanel\n        requestId={id}\n        reference={ref}\n        service={this._service}\n        onDismiss={() => this.setState({ historyRecord: null })}\n      />\n    );\n  }\n\n  // ── Take Action (Phase 4) ─────────────────────────────────────────────────\n\n  /** Display label for the current approver tier */\n  private _tierName(): string {\n    switch (this.props.activeRole) {\n      case 'manager': return 'Manager';\n      case 'approver_tier1': return 'Tier 1';\n      case 'approver_tier2': return 'Tier 2';\n      case 'approver_tier3': return 'Tier 3';\n      default: return 'Approver';\n    }\n  }\n\n  private _renderTakeActionDialog(): React.ReactElement | null {\n    const { takeActionRecord } = this.state;\n    if (!takeActionRecord || !this._service) return null;\n\n    return (\n      <TakeActionModal\n        isOpen={takeActionRecord !== null}\n        record={takeActionRecord}\n        service={this._service}\n        activeRole={this.props.activeRole || 'manager'}\n        currentSystemUserId={this._currentSystemUserId}\n        context={this.props.context}\n        soloTestMode={this.props.soloTestMode}\n        onDismiss={() => this.setState({ takeActionRecord: null })}\n        onSuccess={(msg: string) => {\n          this.setState({\n            takeActionRecord: null,\n            saveSuccess: msg,\n          });\n          setTimeout(() => {\n            if (this.props.activeRole === 'manager') {\n              void this._loadManagerData();\n            } else {\n              void this._load();\n            }\n          }, 500);\n        }}\n      />\n    );\n  }\n\n  // ── Main render ───────────────────────────────────────────────────────────\n\n  public render(): React.ReactElement {\n    const {\n      loading, error, saveSuccess, saveError,\n      records,\n      searchText, statusFilter,\n    } = this.state;\n\n\n    // Merge static known statuses (always shown) with any live values from Dataverse\n    const liveStatusValues = detectStatusValues(records);\n    const allStatusValues: string[] = ALL_REQUEST_STATUS_VALUES.slice();\n    liveStatusValues.forEach(v => {\n      if (allStatusValues.indexOf(v) === -1) allStatusValues.push(v);\n    });\n\n    const filtered = this._filteredRecords();\n    const counts = this._counts(filtered);\n    const paged = this._pagedRecords(filtered);\n\n    const isStrictSoD = this.props.soloTestMode === false;\n    let sodLockedCount = 0;\n    const activeRole = this.props.activeRole || 'admin';\n    if (isStrictSoD && this.state.requesterTab === 'pending' && activeRole !== 'requester') {\n      const baseForSod = this.state.masterRequestData.length > 0 ? this.state.masterRequestData : this.state.records;\n      const myRequests = this.applyFilters(baseForSod, activeRole, 'myRequests', this._currentSystemUserId);\n      const role = activeRole.toLowerCase();\n      sodLockedCount = myRequests.filter(r => {\n        const rawPt = String(r['cr2a4_pendingtier'] || r['cr2a4_PendingTier'] || r['sct_pendingtier'] || '').toLowerCase();\n        const rawStatus = typeof r['sct_request_status'] === 'number' ? r['sct_request_status'] : parseInt(String(r['sct_request_status'] ?? ''), 10);\n        if (role === 'manager') {\n          return rawPt === 'manager' || (!rawPt && (rawStatus === 854000002 || rawStatus === 854000001));\n        }\n        if (role.indexOf('1') !== -1) return rawPt.indexOf('1') !== -1;\n        if (role.indexOf('2') !== -1) return rawPt.indexOf('2') !== -1;\n        if (role.indexOf('3') !== -1) return rawPt.indexOf('3') !== -1;\n        return false;\n      }).length;\n    }\n\n    return (\n      <div>\n        {/* ── Stat tiles ─────────────────────────────────────────────── */}\n        <div className={styles.statRow}>\n          <div className={`${styles.statCard} ${styles.statCardBlue}`}>\n            <Icon iconName=\"DocumentSet\" style={{ fontSize: 20, color: '#0078D4' }} aria-hidden=\"true\" />\n            <span className={styles.statValue}>{loading ? '…' : counts.total}</span>\n            <span className={styles.statLabel}>Total Requests</span>\n          </div>\n          <div className={`${styles.statCard} ${styles.statCardOrange}`}>\n            <Icon iconName=\"Clock\" style={{ fontSize: 20, color: '#F7630C' }} aria-hidden=\"true\" />\n            <span className={styles.statValue}>{loading ? '…' : counts.pending}</span>\n            <span className={styles.statLabel}>Pending Approval</span>\n          </div>\n          <div className={`${styles.statCard} ${styles.statCardGreen}`}>\n            <Icon iconName=\"CheckMark\" style={{ fontSize: 20, color: '#107C10' }} aria-hidden=\"true\" />\n            <span className={styles.statValue}>{loading ? '…' : counts.approved}</span>\n            <span className={styles.statLabel}>Approved</span>\n          </div>\n          <div className={`${styles.statCard} ${styles.statCardTeal}`}>\n            <Icon iconName=\"Money\" style={{ fontSize: 20, color: '#00B294' }} aria-hidden=\"true\" />\n            <span className={styles.statValue} style={{ fontSize: 20 }}>\n              {loading ? '…' : formatCurrency(counts.spend)}\n            </span>\n            <span className={styles.statLabel}>Est. Total Spend</span>\n          </div>\n        </div>\n\n        {/* ── Success / error banners ─────────────────────────────────── */}\n        {saveSuccess && (\n          <MessageBar messageBarType={MessageBarType.success} isMultiline={false}\n            onDismiss={() => this.setState({ saveSuccess: null })}\n            styles={{ root: { borderRadius: 6, marginBottom: 12 } }}>\n            {saveSuccess}\n          </MessageBar>\n        )}\n        {saveError && (\n          <ErrorBanner message={saveError} onDismiss={() => this.setState({ saveError: null })} />\n        )}\n        {error && (\n          <ErrorBanner message={error} onRetry={() => void this._load()}\n            onDismiss={() => this.setState({ error: null })} />\n        )}\n\n        {/* ── Requester single tab (My Requests) ──────────────────────── */}\n        {this.props.activeRole === 'requester' && (\n          <Pivot\n            selectedKey=\"myRequests\"\n            styles={{ root: { marginBottom: 12 } }}\n          >\n            <PivotItem headerText=\"My Requests\" itemKey=\"myRequests\" itemIcon=\"Contact\" />\n          </Pivot>\n        )}\n\n        {/* ── Manager Pivot tabs (Pending / Completed / My Requests) ──── */}\n        {this.props.activeRole === 'manager' && (\n          <Pivot\n            selectedKey={this.state.requesterTab}\n            onLinkClick={item => item && this.setState({ requesterTab: item.props.itemKey as 'pending' | 'completed' | 'myRequests', currentPage: 1 })}\n            styles={{ root: { marginBottom: 12 } }}\n          >\n            <PivotItem headerText=\"Pending My Approval\" itemKey=\"pending\" itemIcon=\"Clock\" />\n            <PivotItem headerText=\"Completed\" itemKey=\"completed\" itemIcon=\"CheckMark\" />\n            <PivotItem headerText=\"My Requests\" itemKey=\"myRequests\" itemIcon=\"Contact\" />\n          </Pivot>\n        )}\n\n        {/* ── Approver Tier Pivot tabs (Pending / Completed / My Requests) ── */}\n        {(this.props.activeRole === 'approver_tier1' ||\n          this.props.activeRole === 'approver_tier2' ||\n          this.props.activeRole === 'approver_tier3') && (\n            <Pivot\n              selectedKey={this.state.requesterTab}\n              onLinkClick={item => item && this.setState({ requesterTab: item.props.itemKey as 'pending' | 'completed' | 'myRequests', currentPage: 1 })}\n              styles={{ root: { marginBottom: 12 } }}\n            >\n              <PivotItem headerText=\"Pending Approval\" itemKey=\"pending\" itemIcon=\"Clock\" />\n              <PivotItem headerText=\"Completed\" itemKey=\"completed\" itemIcon=\"CheckMark\" />\n              <PivotItem headerText=\"My Requests\" itemKey=\"myRequests\" itemIcon=\"Contact\" />\n            </Pivot>\n          )}\n\n        {/* ── Segregation of Duties (SoD) Alert Banner ── */}\n        {sodLockedCount > 0 && (\n          <div style={{\n            background: '#FFFBEB',\n            border: '1px solid #FCD34D',\n            borderRadius: 8,\n            padding: '12px 18px',\n            marginBottom: 14,\n            display: 'flex',\n            alignItems: 'center',\n            justifyContent: 'space-between',\n            gap: 12,\n            boxShadow: '0 1px 3px rgba(0,0,0,0.05)',\n          }}>\n            <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>\n              <Icon iconName=\"ShieldAlert\" style={{ fontSize: 20, color: '#D97706' }} />\n              <div>\n                <strong style={{ color: '#92400E', fontSize: 13 }}>Segregation of Duties (SoD) Active:</strong>{' '}\n                <span style={{ color: '#78350F', fontSize: 13 }}>\n                  {sodLockedCount} pending request{sodLockedCount > 1 ? 's' : ''} submitted by you {sodLockedCount > 1 ? 'are' : 'is'} tracked under <strong>My Requests</strong> with self-approval locked to maintain audit compliance.\n                </span>\n              </div>\n            </div>\n            {this.props.onToggleSoloTestMode && (\n              <button\n                type=\"button\"\n                onClick={this.props.onToggleSoloTestMode}\n                style={{\n                  background: '#D97706', color: '#ffffff', border: 'none', borderRadius: 6,\n                  padding: '6px 14px', fontSize: 12, fontWeight: 600, cursor: 'pointer',\n                  display: 'inline-flex', alignItems: 'center', gap: 6,\n                  boxShadow: '0 1px 2px rgba(0,0,0,0.1)',\n                }}\n              >\n                <Icon iconName=\"Unlock\" style={{ fontSize: 12 }} />\n                Enable Solo Test Mode to Review\n              </button>\n            )}\n          </div>\n        )}\n\n        {/* ── Table card ─────────────────────────────────────────────── */}\n        <div className={styles.card}>\n\n          {/* Toolbar */}\n          <div className={styles.toolbar}>\n            {/* Search */}\n            <div className={styles.searchBox} role=\"search\">\n              <Icon iconName=\"Search\" style={{ fontSize: 14, color: '#A19F9D', flexShrink: 0 }} aria-hidden=\"true\" />\n              <input\n                type=\"search\"\n                placeholder=\"Search all fields…\"\n                value={searchText}\n                aria-label=\"Search requests\"\n                onChange={e => this.setState({ searchText: e.target.value, currentPage: 1 })}\n              />\n              {searchText && (\n                <button\n                  style={{ border: 'none', background: 'none', cursor: 'pointer', padding: 0, color: '#A19F9D', lineHeight: 1 }}\n                  onClick={() => this.setState({ searchText: '', currentPage: 1 })}\n                  aria-label=\"Clear search\"\n                >\n                  <Icon iconName=\"Cancel\" style={{ fontSize: 12 }} />\n                </button>\n              )}\n            </div>\n\n            {/* Status filter */}\n            <select\n              className={styles.filterSelect}\n              value={statusFilter}\n              aria-label=\"Filter by status\"\n              onChange={e => this.setState({ statusFilter: e.target.value, currentPage: 1 })}\n            >\n              <option value=\"all\">All Statuses</option>\n              {allStatusValues.map(v => <option key={v} value={v}>{v}</option>)}\n            </select>\n\n            <div className={styles.toolbarSpacer} />\n\n            {/* Card title inline — reflects the active role view */}\n            <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>\n              <Icon iconName=\"DocumentSet\" style={{ color: '#0078D4' }} aria-hidden=\"true\" />\n              <Text variant=\"mediumPlus\" style={{ fontWeight: 600, color: '#201F1E' }}>\n                {this.props.activeRole === 'requester' ? 'My Requests'\n                  : this.props.activeRole === 'manager' ? (this.state.requesterTab === 'completed' ? 'Completed — Manager' : this.state.requesterTab === 'myRequests' ? 'My Submitted Requests' : 'Pending My Approval')\n                    : this.props.activeRole === 'approver_tier1' ? (this.state.requesterTab === 'completed' ? 'Completed — Tier 1' : this.state.requesterTab === 'myRequests' ? 'My Submitted Requests' : 'Pending — Tier 1')\n                      : this.props.activeRole === 'approver_tier2' ? (this.state.requesterTab === 'completed' ? 'Completed — Tier 2' : this.state.requesterTab === 'myRequests' ? 'My Submitted Requests' : 'Pending — Tier 2')\n                        : this.props.activeRole === 'approver_tier3' ? (this.state.requesterTab === 'completed' ? 'Completed — Tier 3' : this.state.requesterTab === 'myRequests' ? 'My Submitted Requests' : 'Pending — Tier 3')\n                          : 'All Requests'}\n              </Text>\n              {this.state.roleFilterLoading && (\n                <span style={{ fontSize: 11, color: '#A19F9D', fontStyle: 'italic' }}>filtering…</span>\n              )}\n              {!loading && !this.state.roleFilterLoading && (\n                <span style={{ background: '#EBF3FB', color: '#0078D4', fontSize: 12, fontWeight: 600, padding: '2px 10px', borderRadius: 12 }}>\n                  {filtered.length}\n                </span>\n              )}\n            </div>\n\n            <div className={styles.toolbarSpacer} />\n\n            {/* Export CSV button */}\n            <DefaultButton\n              text=\"Export CSV\"\n              iconProps={{ iconName: 'ExcelDocument' }}\n              title=\"Download currently filtered requests as CSV\"\n              disabled={loading || filtered.length === 0}\n              onClick={() => this._exportToCsv(filtered)}\n              styles={{ root: { borderRadius: 6, height: 32, borderColor: '#EDEBE9' } }}\n            />\n\n            <DefaultButton text=\"Refresh\" iconProps={{ iconName: 'Refresh' }}\n              onClick={() => void this._load()} disabled={loading}\n              styles={{ root: { borderRadius: 6, height: 32 } }}\n            />\n          </div>\n\n\n          {/* Body */}\n          <div style={{ padding: 0 }}>\n            {loading ? (\n              <LoadingSpinner label=\"Loading from Dataverse…\" />\n            ) : filtered.length === 0 && !error ? (\n              <EmptyState\n                message={searchText || statusFilter !== 'all' ? 'No matching records' : 'No requests found'}\n                subMessage={searchText || statusFilter !== 'all' ? 'Try adjusting your search or filter.' : 'Submit a new spend request to get started.'}\n                iconName=\"DocumentSearch\"\n                actionLabel={searchText || statusFilter !== 'all' ? 'Clear filters' : undefined}\n                onAction={searchText || statusFilter !== 'all' ? () => this.setState({ searchText: '', statusFilter: 'all', currentPage: 1 }) : undefined}\n              />\n            ) : (\n              <div style={{ overflowX: 'auto', width: '100%' }}>\n                <DetailsList\n                  items={paged}\n                  columns={this._buildColumns(allStatusValues)}\n                  layoutMode={DetailsListLayoutMode.justified}\n                  selectionMode={SelectionMode.none}\n                  styles={{ root: { minWidth: 600 } }}\n                  ariaLabelForGrid=\"Spend control requests\"\n                />\n              </div>\n            )}\n          </div>\n\n          {/* Pagination */}\n          {!loading && filtered.length > 0 && this._renderPagination(filtered.length)}\n        </div>\n\n        {/* ── Panels / dialogs ─────────────────────────────────────────── */}\n        {this._renderViewPanel()}\n        {this._renderEditPanel()}\n        {this._renderDeleteDialog()}\n        {this._renderFieldInspector()}\n        {this._renderHistoryPanel()}\n        {this._renderTakeActionDialog()}\n      </div>\n    );\n  }\n}\n"
+                  }
+                }
+              }
+            }
+          ],
+          "ruleId": "max-lines",
+          "ruleIndex": 1,
+          "suppressions": []
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Unexpected any. Specify a different type."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/dashboard/Dashboard.tsx",
+                  "index": 21
+                },
+                "region": {
+                  "startLine": 615,
+                  "startColumn": 41,
+                  "endLine": 615,
+                  "endColumn": 44,
+                  "snippet": {
+                    "text": "any"
+                  }
+                }
+              }
+            }
+          ],
+          "ruleId": "@typescript-eslint/no-explicit-any",
+          "ruleIndex": 0,
+          "suppressions": [
+            {
+              "kind": "inSource",
+              "justification": ""
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Unexpected any. Specify a different type."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/dashboard/Dashboard.tsx",
+                  "index": 21
+                },
+                "region": {
+                  "startLine": 826,
+                  "startColumn": 42,
+                  "endLine": 826,
+                  "endColumn": 45,
+                  "snippet": {
+                    "text": "any"
+                  }
+                }
+              }
+            }
+          ],
+          "ruleId": "@typescript-eslint/no-explicit-any",
+          "ruleIndex": 0,
+          "suppressions": [
+            {
+              "kind": "inSource",
+              "justification": ""
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "File has too many lines (2250). Maximum allowed is 2000."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/newRequest/NewRequestForm.tsx",
+                  "index": 22
+                },
+                "region": {
+                  "startLine": 2001,
+                  "startColumn": 1,
+                  "endLine": 2251,
+                  "endColumn": 1,
+                  "snippet": {
+                    "text": "            height: 48,\n            borderRadius: 12,\n            background: 'linear-gradient(135deg, #0078D4, #2563EB)',\n            display: 'flex',\n            alignItems: 'center',\n            justifyContent: 'center',\n            flexShrink: 0,\n            boxShadow: '0 2px 8px rgba(0, 120, 212, 0.4)',\n          }}>\n            <Icon iconName=\"Add\" style={{ fontSize: 24, color: '#ffffff' }} />\n          </div>\n          <div>\n            <Text variant=\"xLarge\" style={{ color: '#ffffff', fontWeight: 700, display: 'block', letterSpacing: '-0.2px' }}>\n              New Spend Control Request\n            </Text>\n            <Text variant=\"medium\" style={{ color: '#94A3B8', fontSize: 13 }}>\n              Step {this.state.currentStep + 1} of 4: Complete required procurement details. Reference number is auto-generated upon submission.\n            </Text>\n          </div>\n        </div>\n      </div>\n    );\n\n    const { currentStep } = this.state;\n    const STEPS = [\n      { key: 0, title: 'Location & Requester', sub: 'Site, Unit & Line Manager' },\n      { key: 1, title: 'Requirement & Spend', sub: 'Vendor, Amount & Type' },\n      { key: 2, title: 'Governance & Logistics', sub: 'Asset, Recharges & Rules' },\n      { key: 3, title: 'Review & Submit', sub: 'Evidence & Pre-Approvals' },\n    ];\n    const canNext = this._canGoNext(currentStep);\n\n    // ── Step indicator ──\n    const stepIndicator = (\n      <div style={{\n        background: '#ffffff',\n        borderRadius: 12,\n        border: '1px solid #E2E8F0',\n        padding: '14px 20px',\n        marginBottom: 20,\n        boxShadow: '0 1px 4px rgba(15, 23, 42, 0.04)',\n        display: 'flex',\n        alignItems: 'center',\n        justifyContent: 'space-between',\n        flexWrap: 'wrap',\n        gap: 8,\n      }}>\n        {STEPS.map((sDef, idx) => {\n          const isDone = idx < currentStep;\n          const isActive = idx === currentStep;\n          const isClickable = idx <= currentStep || (idx === currentStep + 1 && canNext);\n          return (\n            <React.Fragment key={idx}>\n              <div\n                onClick={() => {\n                  if (isClickable) this.setState({ currentStep: idx });\n                }}\n                style={{\n                  display: 'flex',\n                  alignItems: 'center',\n                  gap: 10,\n                  cursor: isClickable ? 'pointer' : 'default',\n                  opacity: isActive || isDone ? 1 : 0.6,\n                  padding: '6px 12px',\n                  borderRadius: 8,\n                  background: isActive ? '#EFF6FF' : 'transparent',\n                  border: isActive ? '1px solid #BFDBFE' : '1px solid transparent',\n                  transition: 'all 0.2s ease',\n                }}\n              >\n                <div style={{\n                  width: 30,\n                  height: 30,\n                  borderRadius: '50%',\n                  display: 'flex',\n                  alignItems: 'center',\n                  justifyContent: 'center',\n                  fontWeight: 700,\n                  fontSize: 13,\n                  background: isDone ? '#107C10' : isActive ? '#0078D4' : '#E2E8F0',\n                  color: isDone || isActive ? '#ffffff' : '#64748B',\n                  flexShrink: 0,\n                  boxShadow: isActive ? '0 2px 6px rgba(0, 120, 212, 0.35)' : 'none',\n                }}>\n                  {isDone ? <Icon iconName=\"CheckMark\" style={{ fontSize: 13 }} /> : idx + 1}\n                </div>\n                <div>\n                  <div style={{\n                    fontSize: 13,\n                    fontWeight: isActive ? 700 : 600,\n                    color: isActive ? '#0078D4' : isDone ? '#107C10' : '#334155',\n                    lineHeight: 1.2,\n                  }}>\n                    {sDef.title}\n                  </div>\n                  <div style={{ fontSize: 11, color: '#64748B', marginTop: 2 }}>\n                    {sDef.sub}\n                  </div>\n                </div>\n              </div>\n              {idx < STEPS.length - 1 && (\n                <div style={{\n                  flex: 1,\n                  height: 2,\n                  minWidth: 16,\n                  background: idx < currentStep ? '#107C10' : '#E2E8F0',\n                  borderRadius: 1,\n                }} />\n              )}\n            </React.Fragment>\n          );\n        })}\n      </div>\n    );\n\n    // ── Step content ──\n    const stepContent = (() => {\n      switch (currentStep) {\n        case 0: return this._renderHeaderSection();\n        case 1: return (\n          <>\n            {this._renderRequirementSection()}\n            {this._renderFinancialSection()}\n          </>\n        );\n        case 2: return (\n          <>\n            {this._renderLogisticsSection()}\n            {this._renderDeclarationsSection()}\n          </>\n        );\n        case 3: return (\n          <>\n            {this._renderAttachmentsSection()}\n            {this._renderReviewStep()}\n          </>\n        );\n        default: return null;\n      }\n    })();\n\n    // ── Navigation footer ──\n    const navFooter = (\n      <div style={{ display: 'flex', gap: 12, padding: '16px 0 32px', alignItems: 'center' }}>\n        {currentStep > 0 && (\n          <DefaultButton\n            text=\"Back\"\n            iconProps={{ iconName: 'ChevronLeft' }}\n            disabled={isWorking}\n            onClick={() => this.setState({ currentStep: currentStep - 1 })}\n            styles={{ root: { borderRadius: 6, height: 40 } }}\n          />\n        )}\n\n        {currentStep < STEPS.length - 1 && (\n          <PrimaryButton\n            text=\"Next →\"\n            iconProps={{ iconName: 'ChevronRight' }}\n            disabled={!canNext || isWorking}\n            onClick={() => this.setState({ currentStep: currentStep + 1 })}\n            styles={{ root: { borderRadius: 6, height: 40, minWidth: 120 } }}\n          />\n        )}\n\n        {currentStep === STEPS.length - 1 && (\n          <>\n            <PrimaryButton\n              text={(submitting || this.state.isSubmitting) ? 'Submitting…' : 'Submit Request'}\n              iconProps={{ iconName: (submitting || this.state.isSubmitting) ? undefined : 'Send' }}\n              disabled={isWorking || this.state.isSubmitting || submitting || !this.state.declarationNoPriorCommitment || !this.state.declarationNoConflictOfInterest}\n              title={(!this.state.declarationNoPriorCommitment || !this.state.declarationNoConflictOfInterest)\n                ? 'Both mandatory declarations (R1 and R10) must be checked before submitting'\n                : undefined}\n              onClick={() => void this._submit(false)}\n              onRenderText={(submitting || this.state.isSubmitting) ? () => (\n                <span style={{ display: 'flex', alignItems: 'center', gap: 8 }}>\n                  <Spinner size={SpinnerSize.xSmall} /> Submitting…\n                </span>\n              ) : undefined}\n              styles={{ root: { borderRadius: 6, height: 40, minWidth: 160 } }}\n            />\n            <DefaultButton\n              text={savingDraft ? 'Saving…' : 'Save as Draft'}\n              iconProps={{ iconName: savingDraft ? undefined : 'Save' }}\n              disabled={isWorking}\n              onClick={() => void this._submit(true)}\n              onRenderText={savingDraft ? () => (\n                <span style={{ display: 'flex', alignItems: 'center', gap: 8 }}>\n                  <Spinner size={SpinnerSize.xSmall} /> Saving…\n                </span>\n              ) : undefined}\n              styles={{ root: { borderRadius: 6, height: 40 } }}\n            />\n          </>\n        )}\n\n        {/* Save Draft available on all steps */}\n        {currentStep < STEPS.length - 1 && (\n          <DefaultButton\n            text={savingDraft ? 'Saving…' : 'Save Draft'}\n            iconProps={{ iconName: 'Save' }}\n            disabled={isWorking}\n            onClick={() => void this._submit(true)}\n            styles={{ root: { borderRadius: 6, height: 40 } }}\n          />\n        )}\n\n        {uploadingFiles && (\n          <span style={{ display: 'flex', alignItems: 'center', gap: 8, color: '#605E5C', fontSize: 13 }}>\n            <Spinner size={SpinnerSize.xSmall} /> Uploading attachments…\n          </span>\n        )}\n      </div>\n    );\n\n    return (\n      <div>\n        {hero}\n        {stepIndicator}\n\n        {submitError && (\n          <MessageBar messageBarType={MessageBarType.error} isMultiline={false}\n            onDismiss={() => this.setState({ submitError: null })}\n            styles={{ root: { borderRadius: 6, marginBottom: 12 } }}>\n            {submitError}\n          </MessageBar>\n        )}\n\n        {stepContent}\n\n        {/* Validation summary on Review step */}\n        {currentStep === STEPS.length - 1 && Object.keys(this.state.errors).length > 0 && (\n          <div style={{ background: '#FDE7E9', border: '1px solid #F4B8BC', borderRadius: 8, padding: '14px 18px', marginBottom: 16 }}>\n            <Text variant=\"small\" style={{ color: '#A4262C', fontWeight: 700, display: 'block', marginBottom: 8 }}>\n              <Icon iconName=\"ErrorBadge\" style={{ marginRight: 6, fontSize: 14 }} />\n              Please fix the following before submitting:\n            </Text>\n            <ul style={{ margin: 0, paddingLeft: 20 }}>\n              {Object.keys(this.state.errors).map((key, i) => (\n                <li key={i} style={{ color: '#A4262C', fontSize: 13, marginBottom: 4 }}>{this.state.errors[key]}</li>\n              ))}\n            </ul>\n          </div>\n        )}\n\n        {navFooter}\n      </div>\n    );\n  }\n}\n"
+                  }
+                }
+              }
+            }
+          ],
+          "ruleId": "max-lines",
+          "ruleIndex": 1,
+          "suppressions": []
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Unexpected any. Specify a different type."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/newRequest/NewRequestForm.tsx",
+                  "index": 22
+                },
+                "region": {
+                  "startLine": 503,
+                  "startColumn": 41,
+                  "endLine": 503,
+                  "endColumn": 44,
+                  "snippet": {
+                    "text": "any"
+                  }
+                }
+              }
+            }
+          ],
+          "ruleId": "@typescript-eslint/no-explicit-any",
+          "ruleIndex": 0,
+          "suppressions": [
+            {
+              "kind": "inSource",
+              "justification": ""
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Unexpected any. Specify a different type."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/newRequest/NewRequestForm.tsx",
+                  "index": 22
+                },
+                "region": {
+                  "startLine": 554,
+                  "startColumn": 28,
+                  "endLine": 554,
+                  "endColumn": 31,
+                  "snippet": {
+                    "text": "any"
+                  }
+                }
+              }
+            }
+          ],
+          "ruleId": "@typescript-eslint/no-explicit-any",
+          "ruleIndex": 0,
+          "suppressions": [
+            {
+              "kind": "inSource",
+              "justification": ""
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Unexpected any. Specify a different type."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/newRequest/NewRequestForm.tsx",
+                  "index": 22
+                },
+                "region": {
+                  "startLine": 641,
+                  "startColumn": 42,
+                  "endLine": 641,
+                  "endColumn": 45,
+                  "snippet": {
+                    "text": "any"
+                  }
+                }
+              }
+            }
+          ],
+          "ruleId": "@typescript-eslint/no-explicit-any",
+          "ruleIndex": 0,
+          "suppressions": [
+            {
+              "kind": "inSource",
+              "justification": ""
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Unexpected any. Specify a different type."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/reviewQueue/ReviewQueue.tsx",
+                  "index": 24
+                },
+                "region": {
+                  "startLine": 537,
+                  "startColumn": 42,
+                  "endLine": 537,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "ruleId": "@typescript-eslint/no-explicit-any",
+          "ruleIndex": 0,
+          "suppressions": [
+            {
+              "kind": "inSource",
+              "justification": ""
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Unexpected any. Specify a different type."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/shell/AppShell.tsx",
+                  "index": 25
+                },
+                "region": {
+                  "startLine": 155,
+                  "startColumn": 28,
+                  "endLine": 155,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "ruleId": "@typescript-eslint/no-explicit-any",
+          "ruleIndex": 0,
+          "suppressions": [
+            {
+              "kind": "inSource",
+              "justification": ""
+            }
+          ]
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Unexpected any. Specify a different type."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/components/shell/AppShell.tsx",
+                  "index": 25
+                },
+                "region": {
+                  "startLine": 161,
+                  "startColumn": 48,
+                  "endLine": 161,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "ruleId": "@typescript-eslint/no-explicit-any",
+          "ruleIndex": 0,
+          "suppressions": [
+            {
+              "kind": "inSource",
+              "justification": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
