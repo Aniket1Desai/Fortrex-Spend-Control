@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ad-fortrex-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/adFortrexWebpart/AdFortrexWebpartWebPart.js",
+          "manifest": "./src/webparts/adFortrexWebpart/AdFortrexWebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AdFortrexWebpartWebPartStrings": "lib/webparts/adFortrexWebpart/loc/{locale}.js"
+  }
+}
